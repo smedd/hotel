@@ -1,0 +1,81 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#banner {
+  background-image: url("images/city-classe.png");
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  padding-top: 100px;
+  text-align: center;
+  position: relative;
+}
+
+#banner h1 {
+  font-size: 70px;
+  font-weight: 400;
+  color: #F39735;
+  letter-spacing: 2px;
+}
+
+#banner p {
+  max-width: 475px;
+  margin: auto;
+  padding: 50px;
+  color: white;
+}
+
+#container-button {
+  position: absolute;
+  bottom: 3em;
+  width: 100%;
+}
+
+#under-banner {
+  color: black;
+  background-color: #F8F8F8;
+}
+
+#under-banner h2 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+}
+
+#under-banner p {
+  font-weight: 300;
+  padding: 10px 10px 0px 10px;
+  text-align: justify;
+}
+
+#footer {
+  background-color: #F8F8F8;
+  color: grey;
+}
+
+.padded {
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+#box-nl {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.form-container {
+  max-width: 300px;
+  margin: auto;
+}
+
+@media (max-width: 770px){
+  #form-responsive {
+    margin-bottom: 10px;
+  }
+}
+
